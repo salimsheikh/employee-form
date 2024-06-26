@@ -1,0 +1,127 @@
+/* EmployeeForm.css */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .form-container {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-container table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .form-container table td, .form-container table th {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .form-container input[type="text"],
+  .form-container select,
+  .form-container input[type="checkbox"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .form-container .button-row {
+    text-align: center;
+  }
+  
+  .form-container button {
+    margin: 5px;
+    padding: 8px 16px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .form-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .employee-list {
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .employee-list h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .employee-list table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .employee-list table th, .employee-list table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  .employee-list table th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+  }
+  
+  .employee-list button {
+    margin: 5px;
+    padding: 8px 16px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .employee-list button:hover {
+    background-color: #0056b3;
+  }
+  
+
+  .form-container .action-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 600px; /* Set a maximum width for better layout */
+    gap: 10px; /* Adjust the gap between buttons as needed */
+  }
+
+  .form-container .action-buttons button{
+    flex: 1;
+    width: 50%;
+    transition: all 3s ease; /* Smooth transition for all properties */
+  }
+  
+  
+  
